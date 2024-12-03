@@ -123,9 +123,18 @@ body{
     margin-bottom: 5px;
 }
 
+.FilterButtons {
+    display: flex;
+    gap: 6px;
+}
+
 .FilterButtons button {
+    display: flex;
+    gap: 6px;
+    align-items: center;
     background-color: white;
     color: black;
+    font-weight: bold;
     border: 1px solid #ccc;
     padding: 5px 10px 7px;
     border-radius: 140px;
@@ -133,6 +142,11 @@ body{
     transition: all 0.3s ease;
     margin-right: 5px;
     margin-top: 9px;
+}
+
+.FilterButtons button i {
+    color: blue;
+    font-size: 15px;
 }
 
 .FilterButtons button:hover {
