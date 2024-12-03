@@ -157,3 +157,38 @@ body{
     background-color: lightskyblue;
 }
 
+.Info {
+    margin-top: 3%;
+    font-size: 80%;
+}
+
+.Info i {
+    color: blue;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.Ville {
+    background-color: #ccc;
+    border-radius: 5px;
+    height: 600px;
+}
+
+.Ville #Marseille {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.Ville #plus {
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.photo {
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 250px;
+    margin-left: 2%;
+}
+
