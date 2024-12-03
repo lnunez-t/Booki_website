@@ -1,0 +1,145 @@
+body{
+    padding: 0 2em 0 2em;
+    margin: 0;
+}
+
+
+
+.navbar {
+    list-style-type: none;
+    display : flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+#navright {
+    display : flex;
+    width: 30%;
+    justify-content: flex-end;
+    gap: 60px;
+    transition: color 0.3s ease;
+}
+
+#navright li {
+    position: relative;
+    font-size: small;
+}
+
+#navright li::before{
+    content: '';
+    position: absolute;
+    bottom: 150%;
+    left: 0;
+    width: 0.6;
+    height: 1.8px;
+    background-color: blue;
+    
+}
+
+#navright li:hover::before {
+    width: 100%;
+}
+
+#navright li:hover{
+    color: blue;
+}
+
+#navleft {
+    color: blue;
+    font-size: x-large;
+}
+
+#navigation {
+    display : flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#Localisation {
+    margin-top: 4em;
+}
+
+#title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#type {
+    font-size: small;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0px;
+    height: 1em;
+    margin-top: 30px;
+    margin-right: 700px;
+    
+  }
+
+  .icon-container {
+    background-color: #ccc;
+    border-radius: 20% 0 0 20%;
+  }
+
+  .icon-container svg {
+    width: 14px;
+    height: 14px;
+    margin: 0.5em;
+}
+
+  .text-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    height: 190%;
+  }
+
+  .Rechercher {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+
+.Rechercher:hover {
+    background-color: darkblue;
+}
+
+#Filtres {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.FilterButtons button {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 5px 10px 7px;
+    border-radius: 140px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 5px;
+    margin-top: 9px;
+}
+
+.FilterButtons button:hover {
+    background-color: #ccc;
+}
+
+.FilterButtons .Pepites {
+    background-color: lightskyblue;
+}
+
